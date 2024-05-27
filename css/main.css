@@ -1,0 +1,32 @@
+img{
+    width: 95%;
+    height: 200px;
+    
+}
+main{
+    overflow: hidden;
+    margin-left: 10px;
+}
+article{
+    float: left;
+    width: 25%;
+}
+header{
+    padding: 10px 0;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    background-image: linear-gradient(180deg, #00a4eb 0, #00a2fb 3.33%, #00a0ff 6.67%, #009eff 10%, #009aff 13.33%, #0096ff 16.67%, #0090ff 20%, #0089ff 23.33%, #0081ff 26.67%, #4278ff 30%, #7c6eff 33.33%, #a162fe 36.67%, #bd54ef 40%, #d345de 43.33%, #e533cc 46.67%, #f31db8 50%, #fd00a4 53.33%, #ff008f 56.67%, #ff007a 60%, #ff0066 63.33%, #ff0752 66.67%, #ff253e 70%, #fa3829 73.33%, #f1480e 76.67%, #e65600 80%, #d96200 83.33%, #cb6c00 86.67%, #bc7600 90%, #ab7e00 93.33%, #9a8500 96.67%, #878b00 100%);
+    color: white;
+}
+body{
+    margin: auto;
+}
+footer{
+    
+    margin-top: 70px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background-image: radial-gradient(circle at 47.24% 81.5%, #b0e479 0, #bbde6d 5.56%, #c6d760 11.11%, #cfcf54 16.67%, #d8c547 22.22%, #dfbb3c 27.78%, #e6af31 33.33%, #eba228 38.89%, #f09321 44.44%, #f3821d 50%, #f6701e 55.56%, #f85c25 61.11%, #fa462e 66.67%, #fb2b38 72.22%, #fc0044 77.78%, #fb0051 83.33%, #f8005f 88.89%, #f4006f 94.44%, #ee0080 100%);
+}
