@@ -30,3 +30,52 @@ footer{
     color: white;
     background-image: radial-gradient(circle at 47.24% 81.5%, #b0e479 0, #bbde6d 5.56%, #c6d760 11.11%, #cfcf54 16.67%, #d8c547 22.22%, #dfbb3c 27.78%, #e6af31 33.33%, #eba228 38.89%, #f09321 44.44%, #f3821d 50%, #f6701e 55.56%, #f85c25 61.11%, #fa462e 66.67%, #fb2b38 72.22%, #fc0044 77.78%, #fb0051 83.33%, #f8005f 88.89%, #f4006f 94.44%, #ee0080 100%);
 }
+
+
+
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
+header, footer{
+    background-color: #0089ff;
+    color: white;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+
+}
+.header_main{
+    height: 200px;
+    padding-top: 30px;
+}
+main{
+    background-color: white;
+    width: 100%;
+}
+article{
+    float: left;
+    height: auto;
+    width: 22%;
+
+}
+.imagen{
+    background-color: #0081ff;
+    background-image: url('');
+    background-size: cover;       /*pone la imagen completa */
+    background-repeat: no-repeat;
+    opacity: 0;
+    box-shadow: 10px 10px 5px red; /* hace sombra */
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+}
