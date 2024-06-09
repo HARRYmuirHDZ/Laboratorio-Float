@@ -1,0 +1,22 @@
+.container{
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.item{
+    background-color: rgb(205, 205, 205);
+    border: 1px solid blanchedalmond;
+    padding: 20px;
+    margin: 5px;
+
+}
+.grid{
+    display: grid;
+}
+.grid-template{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-column-row{
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 200px;
+}
