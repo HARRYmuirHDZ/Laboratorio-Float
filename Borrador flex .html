@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flexbox Examples</title>
+<style>
+  .container {
+    display: flex;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 5px;
+    border: 1px solid darkblue;
+  }
+  .row { flex-direction: row; }
+  .row-reverse { flex-direction: row-reverse; }
+  .column { flex-direction: column; }
+  .column-reverse { flex-direction: column-reverse; }
+  .justify-center { justify-content: center; }
+  .justify-space-between { justify-content: space-between; }
+  .justify-space-around { justify-content: space-around; }
+  .justify-space-evenly { justify-content: space-evenly; }
+  .align-center { align-items: center; }
+  .align-start { align-items: flex-start; }
+  .align-end { align-items: flex-end; }
+  .gap { gap: 20px; }
+</style>
+</head>
+<body>
+
+<h2>flex-direction: row (default)</h2>
+<div class="container row">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>flex-direction: row-reverse</h2>
+<div class="container row-reverse">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>flex-direction: column</h2>
+<div class="container column">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>flex-direction: column-reverse</h2>
+<div class="container column-reverse">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>justify-content: center</h2>
+<div class="container justify-center">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>justify-content: space-between</h2>
+<div class="container justify-space-between">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>justify-content: space-around</h2>
+<div class="container justify-space-around">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>justify-content: space-evenly</h2>
+<div class="container justify-space-evenly">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>align-items: center</h2>
+<div class="container align-center" style="height: 200px;">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>align-items: flex-start</h2>
+<div class="container align-start" style="height: 200px;">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>align-items: flex-end</h2>
+<div class="container align-end" style="height: 200px;">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+<h2>gap: 20px</h2>
+<div class="container gap">
+  <div class="item">Item 1</div>
+  <div class="item">Item 2</div>
+  <div class="item">Item 3</div>
+</div>
+
+</body>
+</html>
